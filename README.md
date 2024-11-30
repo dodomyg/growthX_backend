@@ -42,11 +42,11 @@ Create a .env file in the root directory with the following keys:
     - **User Endpoints:**
         - `POST /register` - Register a new user.
         - `POST /login` - User login.
-        - `POST /upload` - Upload an assignment.
-        - `GET /admins`- fetch all admins
+        - `POST /user/upload` - Upload an assignment.
+        - `GET /user/admins`- fetch all admins
     - **Admin Endpoints:**
         - `POST /register` - Register a new admin.
         - `POST /login` - Admin login.
-        - `GET /assignments` - View assignments tagged to the admin.
-        - `POST /assignments/:id/accept` - Accept an assignment.
-        - `POST /assignments/:id/reject` - Reject an assignment.
+        - `GET /admin/assignments` - View assignments tagged to the admin.
+        - `POST /admin/assignments/:id/accept` - Accept an assignment.
+        - `POST /admin/assignments/:id/reject` - Reject an assignment.
